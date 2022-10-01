@@ -6,4 +6,5 @@ The repository contains a pipelined and non-pipelined version of a 5-stages MIPS
 
 ## Running Guidelines
 Use <code> test/test_mips_cpu_bus.sh rtl </code> to run the pipelined version of the CPU.
+
 Use <code> test/test_mips_cpu_bus_pipeline.sh rtl </code> to run the pipelined version of the CPU.
