@@ -9,4 +9,4 @@ Use <code> test/test_mips_cpu_bus.sh rtl </code> to run the pipelined version of
 
 Use <code> test/test_mips_cpu_bus_pipeline.sh rtl </code> to run the pipelined version of the CPU.
 
-Use <code> test/test_mips_cpu_bus_pipeline.sh rtl INSTRUCTIONNAME </code> to run a specific instruction set folder. INSTRUCTIONNAME is the name of the instruction type that you want to run. For example, if you want to test instuction *addiu*, run code  <code> test/test_mips_cpu_bus_pipeline.sh rtl addiu </code>.
+Use <code> test/test_mips_cpu_bus.sh rtl INSTRUCTIONNAME </code> or <code> test/test_mips_cpu_bus_pipeline.sh rtl INSTRUCTIONNAME </code> to run a specific instruction set folder. INSTRUCTIONNAME is the name of the instruction type that you want to run. For example, if you want to test the non-pipelined CPU with the instuction *addiu*, run code  <code> test/test_mips_cpu_bus.sh rtl addiu </code>.
