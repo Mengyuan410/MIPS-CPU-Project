@@ -1,0 +1,21 @@
+LW $3 0x0($0)
+LW $4 0x4($0)
+ADDU $5 $4 $3
+OR $6 $5 $3
+ORI $6 $5 0x0
+SLT $5 $3 $4
+SLTI $5 $3 0x0
+SUBU $7 $4 $3
+ADDU $6 $4 $3
+ADDIU $8 $0 0x40
+ADDIU $10 $0 0x2
+SRAV $2 $8 $10
+MULT $8 $3
+Machine Code
+MFLO $2
+ADDU $10 $0 $2
+BEQ $10, $2, 0x3
+JR $0
+ADDIU $2, $2, 0x40
+ADDIU $2, $2, 0x100 
+JR $0

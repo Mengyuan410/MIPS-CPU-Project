@@ -1,0 +1,140 @@
+Testcase 1:
+LW $6, 0($0)
+ADDIU $29, $0, 92
+SW $6, 0($29)
+LH $2, 2($29)
+JR $0
+
+Testcase 2:
+LW $24, 0($0)
+ADDIU $13, $0, 68
+SW $24, 0($13)
+LH $2, 0($13)
+JR $0
+
+Testcase 3:
+LW $6, 0($0)
+ADDIU $19, $0, 124
+SW $6, 0($19)
+LH $2, 2($19)
+JR $0
+
+Testcase 4:
+LW $29, 0($0)
+ADDIU $28, $0, 48
+SW $29, 0($28)
+LH $2, 2($28)
+JR $0
+
+Testcase 5:
+LW $2, 0($0)
+ADDIU $25, $0, 52
+SW $2, 0($25)
+LH $2, 2($25)
+JR $0
+
+Testcase 6:
+LW $23, 0($0)
+ADDIU $8, $0, 84
+SW $23, 0($8)
+LH $2, 2($8)
+JR $0
+
+Testcase 7:
+LW $25, 0($0)
+ADDIU $28, $0, 16
+SW $25, 0($28)
+LH $2, 2($28)
+JR $0
+
+Testcase 8:
+LW $27, 0($0)
+ADDIU $29, $0, 124
+SW $27, 0($29)
+LH $2, 2($29)
+JR $0
+
+Testcase 9:
+LW $28, 0($0)
+ADDIU $1, $0, 44
+SW $28, 0($1)
+LH $2, 2($1)
+JR $0
+
+Testcase 10:
+LW $13, 0($0)
+ADDIU $24, $0, 104
+SW $13, 0($24)
+LH $2, 2($24)
+JR $0
+
+Testcase 11:
+LW $26, 0($0)
+ADDIU $22, $0, 116
+SW $26, 0($22)
+LH $2, 0($22)
+JR $0
+
+Testcase 12:
+LW $3, 0($0)
+ADDIU $21, $0, 96
+SW $3, 0($21)
+LH $2, 0($21)
+JR $0
+
+Testcase 13:
+LW $22, 0($0)
+ADDIU $15, $0, 100
+SW $22, 0($15)
+LH $2, 2($15)
+JR $0
+
+Testcase 14:
+LW $12, 0($0)
+ADDIU $24, $0, 8
+SW $12, 0($24)
+LH $2, 0($24)
+JR $0
+
+Testcase 15:
+LW $26, 0($0)
+ADDIU $23, $0, 96
+SW $26, 0($23)
+LH $2, 2($23)
+JR $0
+
+Testcase 16:
+LW $27, 0($0)
+ADDIU $28, $0, 44
+SW $27, 0($28)
+LH $2, 2($28)
+JR $0
+
+Testcase 17:
+LW $20, 0($0)
+ADDIU $21, $0, 64
+SW $20, 0($21)
+LH $2, 2($21)
+JR $0
+
+Testcase 18:
+LW $23, 0($0)
+ADDIU $24, $0, 28
+SW $23, 0($24)
+LH $2, 2($24)
+JR $0
+
+Testcase 19:
+LW $21, 0($0)
+ADDIU $23, $0, 44
+SW $21, 0($23)
+LH $2, 2($23)
+JR $0
+
+Testcase 20:
+LW $12, 0($0)
+ADDIU $30, $0, 96
+SW $12, 0($30)
+LH $2, 2($30)
+JR $0
+

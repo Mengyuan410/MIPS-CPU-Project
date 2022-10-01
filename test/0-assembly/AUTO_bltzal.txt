@@ -1,0 +1,280 @@
+Testcase 1:
+LW $29, 0($0)
+LW $6, 0($0)
+ADDIU $2, $2, 4369
+BLTZAL $29, 17
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 14 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 2:
+LW $23, 0($0)
+LW $6, 0($0)
+ADDIU $2, $2, 4369
+BLTZAL $23, 29
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 26 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 3:
+LW $21, 0($0)
+LW $30, 4($0)
+ADDIU $2, $2, 4369
+BLTZAL $21, 17
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 14 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 4:
+LW $3, 0($0)
+LW $26, 4($0)
+ADDIU $2, $2, 4369
+BLTZAL $3, 20
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 17 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 5:
+LW $13, 0($0)
+LW $29, 4($0)
+ADDIU $2, $2, 4369
+BLTZAL $13, 27
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 24 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 6:
+LW $11, 0($0)
+LW $22, 0($0)
+ADDIU $2, $2, 4369
+BLTZAL $11, 25
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 22 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 7:
+LW $1, 0($0)
+LW $17, 4($0)
+ADDIU $2, $2, 4369
+BLTZAL $1, 19
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 16 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 8:
+LW $8, 0($0)
+LW $30, 0($0)
+ADDIU $2, $2, 4369
+BLTZAL $8, 16
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 13 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 9:
+LW $12, 0($0)
+LW $29, 4($0)
+ADDIU $2, $2, 4369
+BLTZAL $12, 17
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 14 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 10:
+LW $5, 0($0)
+LW $21, 0($0)
+ADDIU $2, $2, 4369
+BLTZAL $5, 13
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 10 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 11:
+LW $15, 0($0)
+LW $23, 4($0)
+ADDIU $2, $2, 4369
+BLTZAL $15, 20
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 17 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 12:
+LW $5, 0($0)
+LW $20, 4($0)
+ADDIU $2, $2, 4369
+BLTZAL $5, 16
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 13 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 13:
+LW $22, 0($0)
+LW $23, 0($0)
+ADDIU $2, $2, 4369
+BLTZAL $22, 13
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 10 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 14:
+LW $10, 0($0)
+LW $27, 0($0)
+ADDIU $2, $2, 4369
+BLTZAL $10, 28
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 25 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 15:
+LW $23, 0($0)
+LW $20, 0($0)
+ADDIU $2, $2, 4369
+BLTZAL $23, 23
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 20 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 16:
+LW $16, 0($0)
+LW $23, 4($0)
+ADDIU $2, $2, 4369
+BLTZAL $16, 16
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 13 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 17:
+LW $14, 0($0)
+LW $8, 0($0)
+ADDIU $2, $2, 4369
+BLTZAL $14, 11
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 8 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 18:
+LW $12, 0($0)
+LW $20, 4($0)
+ADDIU $2, $2, 4369
+BLTZAL $12, 12
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 9 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 19:
+LW $25, 0($0)
+LW $1, 0($0)
+ADDIU $2, $2, 4369
+BLTZAL $25, 22
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 19 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+
+Testcase 20:
+LW $28, 0($0)
+LW $8, 4($0)
+ADDIU $2, $2, 4369
+BLTZAL $28, 19
+ADDIU $2, $2, 4369
+ADDIU $2, $2, 4369
+JR $0
+---There are 16 skipped instructions---
+ADDIU $2, $2, 4369
+JR $31
+ADDIU $2, $2, 4369
+JR $0
+

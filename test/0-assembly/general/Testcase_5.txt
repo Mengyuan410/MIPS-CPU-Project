@@ -1,0 +1,24 @@
+LBU $10 3($0)   
+LH $11 2($10) 
+LH $15 2($10)
+BNE$11 $15 3 
+LB $7  2($10)
+BLTZ $7 2
+ADDIU $7 $7 0x0
+STP
+LB $9 2($0) 
+SRA $9 $9 4
+ADDIU $9 $9 3
+SLL $3 $15 16 
+ADDIU $3 $3 0x34
+ADDIU $2 $2 2  
+BEQ $2 $10  3
+ADDIU $1 $1 1 
+JR $3
+SUBU $10 $10 $9
+ANDI $2 $1 0xFF
+ADDIU $20 $20 8
+SW $20 4($0)
+ADDIU $5 $0 4  
+JALR $2 $5
+ADDIU $2 $2 4

@@ -1,0 +1,25 @@
+----starting from mem[8]----
+SLLV $4 $4 $1
+ADDIU $4 $4 7
+SLT $5 $4 $0
+DIV $4 $1
+MFHI  $6
+SRA  $7 $1 2
+ADDU $8 $6 $7
+JR $3
+MFLo $9
+----starting from mem[BFC00000]----
+LHU $1 2($0)
+JALR rd=$3 rs=$1
+LUI $4 0x00C0
+SRL $A $9 0x1D
+BEQ $5 $8 2 
+ANDI $B $6 0x28
+Jr $0
+SB $B 0($A)
+BLTZAL $9 2
+LW $C 2($7)
+Jr($0)
+SUB $D $31 $C
+BGEZAL $D 0xFFFD
+XOR $2 $31 $C 
