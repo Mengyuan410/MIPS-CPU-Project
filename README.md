@@ -4,6 +4,8 @@
 ## Overview
 The repository contains a pipelined and non-pipelined version of a 5-stages MIPS-compatible CPU. The CPU is programmed using Verilog. Moreover, a testbench with a reference CPU coded using C++ is included. The testbench consists of automatically generated testcases for each required instruciton and several general testcases containing a mixture of different instructions.
 
+The requirements of the project is included in the directory *requirement*. The compatible MIPS instruction set of the CPU is illustrated in *docs/mips_instruction_set.pdf*. The project report (i.e. datasheet of the CPU) is in *docs/cpu_data_sheet.pdf*.
+
 ## Running Guidelines
 Use <code> test/test_mips_cpu_bus.sh rtl </code> to run the pipelined version of the CPU.
 
