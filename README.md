@@ -8,3 +8,5 @@ The repository contains a pipelined and non-pipelined version of a 5-stages MIPS
 Use <code> test/test_mips_cpu_bus.sh rtl </code> to run the pipelined version of the CPU.
 
 Use <code> test/test_mips_cpu_bus_pipeline.sh rtl </code> to run the pipelined version of the CPU.
+
+Use <code> test/test_mips_cpu_bus_pipeline.sh rtl INSTRUCTIONNAME </code> to run a specific instruction set folder. INSTRUCTIONNAME is the name of the instruction type that you want to run. For example, if you want to test instuction *addiu*, run code  <code> test/test_mips_cpu_bus_pipeline.sh rtl addiu </code>.
